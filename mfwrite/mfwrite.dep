@@ -1,0 +1,11 @@
+# MFWRITE Dependencies
+
+# Assumed INCLUDE environment variable path:
+#   C:\TOOLKT21\C\OS2H;
+#   C:\IBMCPP\INCLUDE;
+
+
+MFWRITE.OBJ:  MFWRITE.C  \
+   midifile.h  \
+   MFWRITE.MAK
+

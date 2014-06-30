@@ -1,0 +1,6 @@
+# MFREAD Dependencies
+
+MFREAD.OBJ: MFREAD.C \
+   {.;$(INCLUDE)}midifile.h \
+   MFREAD.MAK
+

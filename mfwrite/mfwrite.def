@@ -1,0 +1,16 @@
+;******* MFWRITE.EXE Program Module Definition File (.DEF) ********
+;
+; The module definition file supplies extra information about the program module to the LINKER.
+;
+; Note the WINDOWCOMPAT keyword is required for link386
+
+NAME	mfwrite WINDOWCOMPAT
+
+DESCRIPTION 'Creates Test MIDI File'
+
+CODE	MOVEABLE
+DATA	MOVEABLE MULTIPLE
+
+HEAPSIZE  8192
+STACKSIZE 16384
+

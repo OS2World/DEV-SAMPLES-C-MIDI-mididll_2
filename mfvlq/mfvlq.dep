@@ -1,0 +1,6 @@
+# MFVLQ Dependencies
+
+MFVLQ.OBJ: MFVLQ.C \
+   {.;$(INCLUDE)}midifile.h \
+   MFVLQ.MAK
+
